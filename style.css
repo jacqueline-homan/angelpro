@@ -1,8 +1,18 @@
-body {    
+html, body {    
+    /*overflow: hidden; */
     font-family: "Trebuchet MS", sans-serif;
     background-color: #FFE4C4;
     color:#A0522D;
 }
+
+img.displayed {
+    width: 100%;
+    position: absolute;
+    top: 20;
+    left: 0;
+}
+
+
 
 header .topbar {
     position: relative;
@@ -52,3 +62,4 @@ header .topbar div > ul > li, .nav > li {
     display: block;
     float: left;
 }
+

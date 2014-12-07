@@ -1,1 +1,25 @@
 <h2>Website technical issues contact info:</h2>
+
+
+<div>
+    <form id="frmComments" name="frmComments" method="post" action="posted_comments.php">
+      <fieldset id="posts">
+        <legend><b>Comments Section</b></legend>
+        <p>
+            <label for="comments">Comments:</label>
+          </br>
+              <textarea name="txtBody" value="post comment here" id="comments"></textarea>
+              <input type="submit" value="Post Comment" /> 
+      </fieldset>
+    </form>
+
+    <p>
+      	<label for="email">Email:</label>
+      	  	<input type="text" value="your email" name="name" id="email" tabindex="10" />
+              <p>
+                <div id ="basic">
+                <span id="errorMsg"></span>
+              </div>
+              </p>
+      	<input type="submit" value="Submit">
+    </p>
